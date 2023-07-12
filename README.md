@@ -1,5 +1,5 @@
 Library-
-       gpoints.graph_points.get_graphpoints(image_path,x_range,y_range,background_value)
+gpoints.graph_points.get_graphpoints(image_path,x_range,y_range,background_value)
 
 How to pass arguments-
 1. image_path ==path to a graph image
