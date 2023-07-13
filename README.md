@@ -1,5 +1,5 @@
 Library
-1. gpoints.graph_points.get_graphpoints(image_path,x_range,y_range,background_value)
+1. graph_cordinates.graph_cordinates.get_graphcordinates(image_path,x_range,y_range,background_value)
 2. It is used to extract graph points from a graph Image.
 3. Anyone can access it by installing through: PIP install gpoints
 
