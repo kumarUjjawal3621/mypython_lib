@@ -1,4 +1,4 @@
-def get_graphpoints(image_path,x_range,y_range,background_value):
+def get_graphcordinates(image_path,x_range,y_range,background_value):
     """
     x_range=[2018,2023]   #start and end point of horizontal direction of image
     y_range=[0,800]        #start and end point of vertical direction of image
