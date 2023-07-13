@@ -1,7 +1,10 @@
 Library
-1. graph_cordinates.graph_cordinates.get_graphcordinates(image_path,x_range,y_range,background_value)
-2. It is used to extract graph points from a graph Image.
-3. Anyone can access it by installing through: PIP install gpoints
+1. Viewa at pypi:  https://pypi.org/project/graph-cordinates/
+2. Install using cmd: PIP install graph_cordinates
+3. Import in a python file: from graph_cordinates.graph_cordinates import get_graphcordinates
+4. To use the function: get_graphcordinates(image_path,x_range,y_range,background_value)
+5. It is used to extract graph points from a graph Image.
+6. Anyone can access it by installing through: PIP install gpoints
 
 How to pass arguments-
 1. image_path ==path to a graph image
