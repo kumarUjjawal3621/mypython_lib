@@ -1,10 +1,11 @@
+""" Firstly we convert the Image to grayscale.
+    Now a grayscale Image is a 2D matrix, whose each element has pixel intensity of range (0,255). O== Darkest pixel and 255==Brightest pixel.
+    This function analyses all the pixels in a column(vertical) and records the height of the one corresponding to maximum or minimum intensity,
+    ...depending on the background color is relatively dark or white as compared to the curve respectively.
+    Since we are passing the range of x and y axis too, the function proportionately measures the y(x) at all the points.
+"""
+
 def get_graphcordinates(image_path,x_range,y_range,background_value):
-    """
-    x_range=[2018,2023]   #start and end point of horizontal direction of image
-    y_range=[0,800]        #start and end point of vertical direction of image
-    image_path='/kaggle /input/tata-stock-price/tata_stock_price.png'
-    background_value=1   #1 for white background and dark plot
-    """
     import matplotlib.pyplot as plt
     import numpy as np
     from PIL import Image
