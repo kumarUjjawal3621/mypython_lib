@@ -3,7 +3,7 @@ Library
 1. Published at pypi:  https://pypi.org/project/graph-cordinates/
 2. Install using: pip install graph-cordinates or pip install graph_cordinates
 3. How to use:
-   a. import graph_cordinates.graph_cordinates as gc \n
+   a. import graph_cordinates.graph_cordinates as gc 
    b. gc.get_graphcordinates(image_path,x_range,y_range,background_value)
    c. Will return an array of 2D cordinates: [[x1,y1], [x2,y2], .......n-points]  ; n=pixel width of Image
 
