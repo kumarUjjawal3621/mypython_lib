@@ -17,6 +17,3 @@ How to pass arguments-
 
 Caution- 
   Try to pass the Image by erasing the axes
-  
-
-  
